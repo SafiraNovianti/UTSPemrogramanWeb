@@ -1,0 +1,200 @@
+*{
+ margin:0;
+ padding:0;
+ font-family:sans-serif;
+ background-image: url("jet.png");
+}
+
+.awal{
+ min-height: 400px;
+ margin:0 auto;
+ width: 1100px;
+ background-color: darkgray;
+}
+
+.header{
+ width: 100%;
+ height: 100px;
+ border: 1px solid;
+}
+
+.header form {
+ float:right;  
+ margin-top:10px;  
+ margin-right: 10px; 
+}
+
+.logo{
+ width: 80px;
+ height: 80px;
+ border: 1px solid;
+ margin: 1%;
+ float: left;
+
+}
+.logo img{
+ width: 100%;
+ height: 80px;
+}
+
+.title{
+ width: 50%;
+ height: 50px;
+ border: 1px solid;
+ margin: 1%;
+ float: left;
+ font-size: 30px;
+ font-weight: bold;
+ background-color: white;
+}
+
+.menu {
+ width: 100%;
+ height: 30px;
+ border: 1px solid;
+}
+
+.menu ul a{
+ color: white;
+ text-decoration: none;
+}
+
+.menu ul li{
+ width: 100px;
+ height: 40px;
+ border: 1px solid;
+ float: left;
+ list-style: none;
+ text-align: center;
+ line-height: 40px;
+ color: white;
+ background-color: blue; 
+}
+
+.menu ul li:hover {
+ background-color: #eaeaea;
+}
+
+.menu ul li ul  {
+ display: none;
+}
+
+.menu ul li:hover ul  {
+ display: block;
+}
+
+.menu ul li ul li {
+ background-color: orange;
+}
+
+.menu ul li ul li:hover {
+ background-color: blue;
+}
+
+.content {
+ width: 100%;
+ min-height: 450px;
+ border: 1px solid;
+ overflow: hidden;
+ background-color: blue;
+}
+
+.left-content {
+ width: 60%;
+ min-height: 450px;
+
+ float : left; 
+ margin: 1%;
+ background-color: white;
+}
+
+.left-content img{
+ width: 350px;
+ height: 350px;
+ border-bottom: 10px solid black;
+ border-right:10px solid black;
+ border-left:10px solid black;
+ border-top:10px solid black;
+ float: left;
+ margin: 1%;
+}
+
+.right-content {
+ width: 35%;
+ min-height: 450px;
+ border: 1px solid;
+ float: left;
+ margin: 1%;
+}
+
+.jurusan {
+ background:#eaeaea;  
+ padding:10px;  
+ margin-bottom:20px;  
+ overflow:hidden; 
+ margin: 1%;
+ border-bottom: 5px solid black;
+ border-right:5px solid black;
+ border-left:5px solid black;
+ border-top:5px solid black;
+}
+
+.jurusan img{
+ float:left;  
+ margin-right:10px;  
+ width:40px; 
+ height:40px 
+}
+
+.jurusan{
+ background:#eaeaea;  
+ padding:10px;  
+ margin-bottom:20px;  
+ overflow:hidden; 
+ margin: 2%;
+ border-bottom: 5px solid black;
+ border-right:5px solid black;
+ border-left:5px solid black;
+ border-top:5px solid black;
+}
+
+.jurusan img{
+ float:left;  
+ margin-right:10px;  
+ width:40px; 
+ height:40px 
+}
+
+.jurusan{
+ background:#eaeaea;  
+ padding:10px;  
+ margin-bottom:20px;  
+ overflow:hidden; 
+ margin: 2%;
+ border-bottom: 5px solid black;
+ border-right:5px solid black;
+ border-left:5px solid black;
+ border-top:5px solid black;
+}
+
+.jurusan img{
+ float:left;  
+ margin-right:10px;  
+ width:40px; 
+ height:40px 
+}
+
+.footer {
+ width: 100%;
+ height: 50px;
+ border: 1px solid;
+ clear:both;    
+ text-align:center;  
+ background-color: #f0f0f0;  
+ padding:5px;  
+ color:#55555;
+}
+
+.footer akhir{
+ margin: 2%;
+}
